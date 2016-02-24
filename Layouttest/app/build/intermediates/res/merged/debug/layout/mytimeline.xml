@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="5"
+        android:id="@+id/editText1"
+        android:text="08:00"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="79dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="5"
+        android:id="@+id/editText2"
+        android:text="09:00"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/editText1"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="5"
+        android:id="@+id/editText3"
+        android:text="10:00"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="5"
+        android:id="@+id/editText4"
+        android:text="11:00"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/editText3"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="5"
+        android:id="@+id/editText5"
+        android:text="12:00"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/editText4"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="5"
+        android:id="@+id/editTex6"
+        android:text="13:00"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/editText5"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="5"
+        android:id="@+id/editText7"
+        android:text="14:00"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/editTex6"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="5"
+        android:id="@+id/editText8"
+        android:text="15:00"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/editText7"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/doge"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/editText1"
+        android:layout_toStartOf="@+id/editText9" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText9"
+        android:text="代辦事項"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignParentEnd="true"
+        android:minWidth="150dp"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText10"
+        android:text="代辦事項"
+        android:minWidth="150dp"
+        android:gravity="center_horizontal"
+        android:layout_alignTop="@+id/editText2"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText11"
+        android:text="代辦事項"
+        android:minWidth="150dp"
+        android:gravity="center_horizontal"
+        android:layout_alignTop="@+id/editText3"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText12"
+        android:text="代辦事項"
+        android:minWidth="150dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/editText11"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText13"
+        android:text="代辦事項"
+        android:minWidth="150dp"
+        android:gravity="center_horizontal"
+        android:layout_alignTop="@+id/editText5"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText14"
+        android:text="代辦事項"
+        android:minWidth="150dp"
+        android:gravity="center_horizontal"
+        android:layout_alignTop="@+id/editTex6"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText15"
+        android:text="代辦事項"
+        android:minWidth="150dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/editText14"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText16"
+        android:text="代辦事項"
+        android:minWidth="150dp"
+        android:gravity="center_horizontal"
+        android:layout_alignTop="@+id/editText8"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
+<!-- From: file:/C:/Users/fay/Desktop/Layouttest/app/src/main/res/layout/mytimeline.xml -->

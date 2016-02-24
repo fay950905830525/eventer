@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Time"
+        android:id="@+id/txttime"
+        android:layout_alignTop="@+id/txtname"
+        android:layout_toStartOf="@+id/imgcolor"
+        android:layout_marginRight="5dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgcolor"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="data"
+        android:id="@+id/txtname"
+        android:layout_alignBottom="@+id/imgcolor"
+        android:layout_toEndOf="@+id/imgcolor"
+        android:layout_marginLeft="5dp"/>
+</RelativeLayout><!-- From: file:/C:/Users/fay/Desktop/Layouttest/app/src/main/res/layout/newtimeline.xml -->

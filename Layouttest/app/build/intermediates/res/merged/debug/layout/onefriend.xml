@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout2"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:focusable="false"
+    android:clickable="false"
+    android:layout_height="fill_parent">
+
+    <ImageView android:id="@+id/imgLogo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="第一行文字"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:layout_alignBottom="@+id/imgLogo"
+        android:layout_toEndOf="@+id/imgLogo" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgbtnclock"
+        android:background="#00000000"
+        android:src="@drawable/clock"
+        android:layout_alignBottom="@+id/txtName"
+        android:layout_alignEnd="@+id/txtName" />
+
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/fay/Desktop/Layouttest/app/src/main/res/layout/onefriend.xml -->
